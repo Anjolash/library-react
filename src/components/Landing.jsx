@@ -11,9 +11,9 @@ const Landing = () => {
                         <div className="header__Description">
                             <h1>Australia's most awarded online library platform</h1>
                             <h2>Find your dream book with <span className="purple">Library</span></h2>
-                            <a href="features">
+                            <Link to="/books" className="header__btn" >
                                 <button className="btn">Browse books</button>
-                            </a>
+                            </Link>
                         </div>
                         <figure className="header__img--wrapper">
                             <img src={UndrawBooks} alt="" />                

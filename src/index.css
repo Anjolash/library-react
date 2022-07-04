@@ -6,10 +6,12 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
 .App {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  
 }
 
 html {
@@ -19,6 +21,9 @@ html {
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  
+  
+  
 }
 
 nav {
@@ -180,7 +185,7 @@ button:active {
   visibility: hidden;
   transition: all 300ms ease;
   opacity: 0;
-  transform: translate(100%);
+  
 }
 
 .menu--open {
@@ -247,6 +252,13 @@ header {
   flex-direction: column;
   align-items: center;
 }
+.header__btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
 
 .header__img--wrapper {
   padding: 20px;
@@ -300,7 +312,7 @@ HIGHLIGHTS
   background: url("./assets/wave.svg");
   content: "";
   position: absolute;
-  width: 101vw;
+  width: 100vw;
   height: 12vw;
   left: 0;
   z-index: 1;
